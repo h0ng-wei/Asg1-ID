@@ -112,3 +112,41 @@ html, body {
     color: #ff4fa3;
     transform: translateX(-50%) scale(1.05);
 }
+
+.about-section {
+    width: 95%;            
+    max-width: 900px;         
+    margin: 40px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.about-photo {
+    width: 100%;
+    max-width: 850px;        
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.about-title {
+    font-size: 200%;          
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+.about-content {
+    margin: 20px auto;
+    font-size: 18px;          
+    line-height: 1.7;
+    width: 90%;               
+    max-width: 850px;
+}
+
+.history-content {
+    margin: 18px auto;
+    font-size: 180%px;      
+    line-height: 2;
+    opacity: 0.95;
+    width: 90%;               
+    max-width: 850px;
+}
