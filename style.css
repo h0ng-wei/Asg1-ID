@@ -174,10 +174,10 @@ html, body {
 }
 
 .member-photo {
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 980px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-bottom: 20px;
 }
 
@@ -190,17 +190,27 @@ html, body {
 .member-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px 35px;        
-    width: 90%;             
-    max-width: 700px;     
-    margin: 0 auto 30px;   
-    text-align: left;
-    font-size: 19px;     
-    line-height: 1.4;  
+    gap: 12px 35px;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 19px;
+    line-height: 1.4;
 }
 
 .member-info p {
     margin: 0;
+}
+
+.member-info .label {
+    font-weight: bold;
+    display: block;
+    text-align: center; 
+    margin-bottom: 4px;
+}
+
+.member-info .value {
+    text-align: left;    
 }
 
 .member-description {
