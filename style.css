@@ -305,3 +305,53 @@ html, body {
     border: none;
     border-radius: 5px;
 }
+
+.store-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px; 
+    margin-top: 30px;
+}
+
+.store-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.store-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.store-item .pic {
+    width: 100%;
+    max-width: 270px;   
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.store-item .item-name {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    width: 100%;
+    max-width: 270px;
+}
+
+.store-item .item-price {
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    width: 100%;
+    max-width: 270px;
+}
