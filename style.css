@@ -207,6 +207,10 @@ html, body {
     margin-top: 20px;
 }
 
+.zoom {
+    transition: transform 0.25s ease;
+}
+
 .about-title {      
     margin-bottom: 18px;
     font-weight: bold;
